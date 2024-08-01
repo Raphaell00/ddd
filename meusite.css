@@ -1,0 +1,187 @@
+body{
+    position: relative;
+    color: rgb(221, 118, 221);
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  align-items: center;
+   margin-bottom: 10px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+   
+}
+    .imagem{
+        border-radius: 50%;
+        border: 5px solid white;
+        background-color: white;
+        width: 100px; 
+    }
+  
+    .busca {
+        position: absolute;
+        top: 20px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        width: 600px;
+        padding: 16px; 
+        padding-right: 40px; 
+        font-size: 16px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        background-image: url(procurar.png);
+        background-size: 20px; 
+        background-repeat: no-repeat; 
+        background-position: right 10px center; 
+    }
+      
+    .center{
+        width: 100px;
+        background-color: purple;
+        text-align: center;
+        border: 5px solid purple;
+        border-radius: 50%;
+    }
+    .center1{
+        text-align: center;
+    }
+    .caixas{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .caixas:hover{
+        transform: translateY(-5px);
+    }
+    .caixas img{
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+    /* informação dos tenis*/
+    .information{
+        padding: 20px;
+    }
+    .information h2{
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 10px;
+
+        
+    }
+    .information p{
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+    }
+    .information .price{
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }
+    .information button{
+        padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    }
+    .information button:hover{
+        background-color: #45a049;
+    }
+    
+    
+    
+    
+    
+    .caixas {
+        padding: 20px;
+    }
+    
+    .caixas h2 {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        gap: 20px; 
+       border: 5px solid black;
+        margin-right: 30px;
+    }
+    
+    .caixas {
+        flex: 1 1 300px; 
+        max-width: 300px; 
+        margin: 0; 
+
+        
+    }
+   
+    .menu-item {
+        border: 2px solid rgb(0, 0, 0); 
+        border-radius: 5px; 
+        padding: 5px 10px; 
+        margin: 0 10px; 
+        transition: border-color 0.3s ease; 
+    
+        
+        cursor: pointer;
+    }
+    
+    .menu-item:hover {
+        border-color: #8a2be2; 
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .preço-div {
+        
+        display: flex;
+        flex-direction: row;
+      ;  
+
+        align-items: center;
+
+    }
+
+   .price{
+
+    text-decoration: line-through;
+    margin-right: 5px;
+   }
+   
+   
